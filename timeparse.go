@@ -14,7 +14,7 @@ const (
 	Day   = time.Hour * 24
 	Week  = Day * 7
 	Month = Day * 30
-	Year  = Month * 12
+	Year  = Day * 365
 )
 
 var unitMap = map[string]int64{
